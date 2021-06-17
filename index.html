@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>レシピ日記</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com  rel="stylesheet"">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"  rel="stylesheet">
+  <link rel="stylesheet" href="css/vendor/animate.css">
+  <link rel="stylesheet" href="css/vendor/magnific-popup.css">
+  <link rel="stylesheet" href="css/main.css">
+  
+  <link rel="stylesheet" media="print" href="print.css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <script src="https://developer.edamam.com/attribution/badge.js"></script>
+
+  <noscript>
+    <link rel="stylesheet" href="css/noscript.css">
+  </noscript>
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar">
+  
+  <div class="start">
+    <div class="sk-cube-grid">
+      <div class="sk-cube sk-cube1"></div>
+      <div class="sk-cube sk-cube2"></div>
+      <div class="sk-cube sk-cube3"></div>
+      <div class="sk-cube sk-cube4"></div>
+      <div class="sk-cube sk-cube5"></div>
+      <div class="sk-cube sk-cube6"></div>
+      <div class="sk-cube sk-cube7"></div>
+      <div class="sk-cube sk-cube8"></div>
+      <div class="sk-cube sk-cube9"></div>
+    </div>
+  </div>
+
+  <div class="top" id="top">
+
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark">
+      <div class="container-fluid">
+        <a href="https://recipe-diary.com/users/sign_in"class="btn btn-outline-dark">新規登録/ログイン</a>
+        
+        <button class="navbar-toggler ml-auto btn btn-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  ml-auto ">
+            <li class="nav-item ml-auto">
+              <a class="nav-link text-dark" href="#top">Top</a>
+            </li>
+            <li class="nav-item ml-auto">
+              <a class="nav-link text-dark" href="#about">レシピ日記とは</a>
+            </li>
+            <li class="nav-item ml-auto">
+              <a class="nav-link text-dark" href="#introductions">機能紹介</a>
+            </li>
+            <li class="nav-item ml-auto">
+              <a class="nav-link text-dark" href="#prepare">ステップ</a>
+            </li>
+            <li class="nav-item ml-auto">
+              <a class="nav-link text-dark" href="#gallery">レシピ検索</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="top__bg">
+      <video autoplay muted loop class="top__video">
+        <source src="video/top-video.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="top__text-box">
+      <h2>Recipe Diary</h2>
+      <h1>レシピ日記</h1>
+    </div>
+    
+    <div class="scrolldown1"><span><a class="nav-link" href="#about">Scroll</a></span></div>
+    
+  </div>
+  <section id="about" class="about">
+    <div class="textbg animated">
+     <div class="about__phrase animated pt-4">~毎日の料理を楽しく記録~</div>
+      <h2 class="about__title animated">About</h2>
+      <div class="showcase showcase--leftpic container-fluid tabs animated">
+        <div class="row">
+  
+          <div class="col-md-6">
+            <ul class="menu_selections tabs__menu">
+              <li>
+                <a href="#about-1">1-ABOUT</a>
+              </li> <br>
+              <li>
+                <a href="#about-2">2- DIARY</a>
+              </li><br>
+              <li>
+                <a href="#about-3">3- EASY </a>
+              </li><br>
+              <li>
+                <a href="#about-4">4-"LIKE"!</a>
+              </li>
+            </ul>
+          </div>
+  
+          <div class="col-md-6 mt-2 mt-md-0">
+            <div class="tabs__content">
+              <section id="about-1">
+                <div class="showcase__details">
+                  <p class="showcase__kind-description">
+                  ・毎日の献立を考えるのは大変<br>
+                  ・自分の料理を気軽に残したい<br>
+                  ・材料や盛付けのレビューも記録したい<br>
+                  ・レシピサイトは色々使いたい<br><br>
+                  そんな方は、是非「レシピ日記」をご活用ください！
+                  </p>
+                </div>
+              </section>
+              <section id="about-2">
+                <div class="showcase__details">
+                  <p class="showcase__kind-description">
+                  毎日レシピサイトの無数の料理から考えるのは大変。<br>
+                  過去に自分が料理して良かったレシピの中から、今日の献立を考えられます。<br>
+                  「レシピ日記」に記録していけば、それがあなたのレパートリーになります。<br>
+                  料理の手順だけでなく、盛付け方の工夫や、美味しかった近所のスーパーの味付き商品なども記録できます。<br>
+                  </p>
+                </div>
+              </section>
+              <section id="about-3">
+                <div class="showcase__details">
+                  <p class="showcase__kind-description">
+                  日記にレシピの詳細を書く必要はありません。それはレシピサイトにあります。<br>
+                  作った料理の写真を撮って、その感想と日付、参考ページ等を記録するだけ。<br><br>
+                  家族はどんな感想だったか、レシピからどんなアレンジをしてみたか、反省点は何か、など。
+                  また次に作る時には、その記録を見た上でリンクからレシピサイトへ。                                                                   
+                  </p>
+                </div>
+              </section>
+              <section id="about-4">
+                <div class="showcase__details">
+                  <p class="showcase__kind-description">
+                  「like」機能で、うまくいった自分のレシピを記録。<br>
+                  他の人のレシピも「like」できます。<br>
+                  素敵なレパートリーを持つユーザーを「フォロー」することもできるので、献立作りの参考にも。
+                  </p>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="introductions" class="introductions">
+    <div class="textbg animated">
+      <div class="introductions__phrase animated pt-4">機能紹介</div>
+      <h2 class="introductions__title animated">Functions</h2>
+      <div class="showcase showcase--rightpic container-fluid tabs animated">
+            <ul class="menu_selections tabs__menu" >
+              <li><a href="#introductions-1">1- Diary</a></li>
+              <li><a href="#introductions-2">2- Share</a></li>
+              <li><a href="#introductions-3">3- Suggest</a></li>
+              <li><a href="#introductions-4">4- Search</a></li>
+            </ul>
+        
+        <div class="row">
+          <div class="tabs__content col-md-6 order-md-last text-center mb-4">
+            <div class="introductions-1">
+              <img class="img-fluid rounded" src="img/introduction1.jpg" width="500" height="500" alt="Diary">
+            </div>
+            <div class="introductions-2">
+              <img class="img-fluid rounded" src="img/introduction2.jpg" width="500" height="500" alt="Share">
+            </div>
+            <div class="introductions-3">
+              <img class="img-fluid rounded" src="img/introduction3.jpg" width="500" height="500" alt="Suggest">
+            </div>
+            <div class="introductions-4">
+              <img class="img-fluid rounded" src="img/introduction4.jpg" width="500" height="500" alt="Search">
+            </div>
+          </div>
+  
+          <div class="col-md-6 mt-2 mt-md-0">
+            <div class="tabs__content">
+              <section id="introductions-1">
+                <div class="showcase__details">
+                  <h3 class="showcase__kind-name">Diary</h3>
+                  <p class="showcase__kind-description">
+                    毎日の料理を日記のように記録。レシピサイトで参考にした料理の工夫した点や、自分や家族の感想を記録しましょう。複数のレシピサイトを使っていても、ここに記録しておけば迷いません。
+                    「近所の〇〇スーパーの味付き肉が美味しかった」なんてことも記録しちゃいましょう。
+                  </p>
+                </div>
+              </section>
+              <section id="introductions-2">
+                <div class="showcase__details">
+                  <h3 class="showcase__kind-name">Share</h3>
+                  <p class="showcase__kind-description">
+                    あなたのレシピが誰かのレパートリーに。あなたの好みに近いレシピ友達をフォローすることもできます。新しい発見があるかも。
+                  </p>
+                </div>
+              </section>
+              <section id="introductions-3">
+                <div class="showcase__details">
+                  <h3 class="showcase__kind-name">Suggest</h3>
+                  <p class="showcase__kind-description">
+                    あなたの自分のレパートリーの中から、ランダムにレシピを提案します。作ったことのあるレシピなので、的外れなものは出てきません。
+                  </p>
+                </div>
+              </section>
+              <section id="introductions-4">
+                <div class="showcase__details">
+                  <h3 class="showcase__kind-name">Search</h3>
+                  <p class="showcase__kind-description">
+                    今日はレパートリーを増やしたい。そんな時は、レシピの検索機能をご利用ください。あとは日記に記録をすると、あなたのレパートリーに新たなレシピが加わります。
+                  </p>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="prepare" class="prepare">
+    <div class="prepare__phrase animated">ご利用のステップ</div>
+    <h2 class="prepare__title animated">3 Steps</h2>
+    <div class="container">
+      <div class="row">
+
+        <div class="card col-lg-4 bg-transparent border-0 animated">
+          <div class="card-body">
+            <div class="card__number">1</div>
+            <div class="card__icon">
+              <i class="far fa-list-alt" aria-hidden="true"></i>
+            </div>
+            <div class="card__description">
+              「会員登録」<br>名前はニックネームでOK!<br>
+            <a href="https://recipe-diary-for.herokuapp.com/signup"class="btn btn-danger">会員登録はこちら</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card col-lg-4 bg-transparent border-0 animated">
+          <div class="card-body">
+            <div class="card__number">2</div>
+            <div class="card__icon">
+              <i class="fas fa-utensils" aria-hidden="true"></i>
+            </div>
+            <div class="card__description">
+              「レシピ登録」<br>まずは昨日の夕飯の記録を投稿！
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card col-lg-4 bg-transparent border-0 animated">
+          <div class="card-body">
+            <div class="card__number">3</div>
+            <div class="card__icon">
+              <i class="fas fa-search" aria-hidden="true"></i>
+            </div>
+            <div class="card__description">
+              「探す」<br>全てのレシピや全てのユーザーから色々探せます
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="gallery" class="gallery">
+    <div class="textbg pt-5 pr-1 pl-1">
+
+    <div class="gallery__phrase">検索</div>
+    <h2 class="gallery__title animated">Global Recipe Search</h2>
+    <p class="animated" id="powered">Powered by EDAMAM Recipe Search API</p>
+    <div id="app" class="container">
+      <div class="row justify-content-center my-4">
+        <header class="mb-5">
+          <p class="pr-1 pl-1">世界中の様々なレシピサイトから、230万件以上のレシピをまとめて検索！<br>
+          いつもとは少し違ったレシピで、レパートリーを増やしてみませんか？<br>
+          画像から各レシピサイトに遷移します。<br>
+          料理をしたら「レシピ日記」に記録しましょう！
+          </p> 
+            
+          <form
+            class="form-inline justify-content-center my-4"
+            v-on:submit.prevent="fetchRecipesFromRecipe"
+          >
+            <input
+              type="search" name="search"
+              class="form-control mr-sm-2"
+              placeholder="英語での検索のみ対応"
+              aria-label="Search"
+            >
+            <button
+              type="submit"
+              class="btn btn-outline-primary my-2 my-sm-0"
+            >
+              Search
+            </button>
+          </form>
+        </header>
+      </div>
+      <div class="row justify-content-center px-4">
+        <p v-if="isInitialized"></p>
+        <p
+          v-show="isFetching"
+          class="position-relative mx-auto"
+        >
+          <span
+            class="loading-icon fas fa-sync"
+            aria-hidden="true"
+          >
+          </span>
+        </p>
+        <p v-show="isFailed">
+          データの取得に失敗しました。しばらく時間を置いてから、再度お試しください。
+        </p>
+        <p v-show="isNotFound">
+          レシピが見つかりませんでした。別の言葉で検索してみてください。
+        </p>
+      </div>
+      <div class="row pt-5" id="search">
+          <template v-if="isFound">
+              <div
+                v-for="recipe in recipes"
+                v-bind:key="recipe.uri"
+                class="col-sm-6 col-md-4 col-lg-3"
+              >
+                <div class="card width: 18rem">
+                  <a
+                    v-bind:href="recipe.pageURL"
+                    target="_blank"
+                    >
+                    <img
+                      v-bind:src="recipe.imageURL"
+                      class="card-img-top pd-100%"
+                    >
+                  </a>
+                
+                  <div class="card-body">
+                    <p
+                      v-bind:key="recipe.label"
+                      class="card-title"
+                    > {{recipe.label}}
+                    </p>
+                    
+                    <p
+                      v-for="type in recipe.cuisineType"
+                      v-bind:key="type"
+                      class="card-subtitle pb-2"
+                    >料理タイプ:{{ type }}
+                    </p>
+                    <div class="card-text">
+                      <ul>
+                        <li
+                        v-for="ingre in recipe.ingredient"
+                        v-bind:key="ingre"
+                        >{{ ingre }}
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <small
+                    v-bind:key="recipe.source"
+                    class="text-muted"
+                    >レシピサイト：{{recipe.source }}
+                    </small>
+                  </div>
+                </div>
+              </div>
+          </template>
+        <div id="edamam-badge" data-color="transparent"></div>
+      </div>
+    </div>  
+    </div>  
+
+  </section>
+
+  <footer>
+    &copy; 2021 レシピ日記    <br>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdNV2teJuvCZ5gAAo0_FP_H8mWSpTgTv_nnHfvN0k6pRz39Lw/viewform" style="color:black;">お問い合わせ</a>
+    <br>
+    <a href="https://recipe-diary.com/users/sign_in"class="btn btn-dark">レシピ日記</a>
+
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <script src="js/vendor/jquery.waypoints.min.js"></script>
+  <script src="js/vendor/jquery.magnific-popup.min.js"></script>
+  <script src="js/vendor/mobile-detect.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="js/vue-gallery.js"></script>
+
+  <script src="js/main.js"></script>
+
+  <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"></script>
+</body>
+
+</html>
