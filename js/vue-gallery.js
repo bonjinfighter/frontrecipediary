@@ -1,7 +1,6 @@
 /* jshint curly:true, debug:true */
 /* globals $, Vue */
 
-// Flickr API key
 const APP_ID = '060f5a7e';
 const APP_KEY = '8d9c37bcad7f13cba5ad13acf4129734';
 

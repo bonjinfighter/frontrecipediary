@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "about-recipe-diary"
+    "default": "about-recipe-diary",
+    "recipe-diary-about": "recipe-diary-about"
   }
 }
